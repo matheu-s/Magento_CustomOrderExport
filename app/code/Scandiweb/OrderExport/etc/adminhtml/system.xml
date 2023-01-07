@@ -1,0 +1,14 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="sales">
+            <group id="order_export" translate="label" type="text" sortOrder="2" showInDefault="1">
+                <label>Order Export</label>
+                <field id="enabled" translate="label comment" type="select"  showInDefault="1" >
+                    <label>Enable exports</label>
+                    <comment>Choose weather you want to enable order exports or not</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
