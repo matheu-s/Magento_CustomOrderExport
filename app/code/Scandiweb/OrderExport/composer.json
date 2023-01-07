@@ -1,0 +1,28 @@
+{
+    "name": "magento/module-checkout",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "magento/module-sales": "100.3.*"
+    },
+    "suggest": {
+        "magento/module-cookie": "100.4.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Scandiweb\\OrderExport\\": ""
+        }
+    },
+    "version": "1.0"
+}
